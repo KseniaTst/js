@@ -1,0 +1,9 @@
+function digitize(n) {
+  //code here
+  const num = String(n).split('').reverse();
+  const resultArr = [];
+  
+  num.map((x) => resultArr.push(Number(x)));
+  
+  return resultArr;
+}
