@@ -1,0 +1,7 @@
+function solution(str, ending){
+if (ending==str.slice(-ending.length)){
+  return true
+} else {
+  return false
+}
+}
