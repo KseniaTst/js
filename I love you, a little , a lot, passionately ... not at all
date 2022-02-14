@@ -1,29 +1,7 @@
 function howMuchILoveYou(nbPetals) {
-switch (nbPetals){
-    case 1:
-    case 7:
-  return  "I love you"
-    break
-    case 2:
-    case 8:
-   return "a little"
-    break
-    case 3:
-    case 9:
-   return "a lot"
-    break
-    case 4:
-    case 10:
-   return "passionately"
-    break
-    case 5:
-    case 11:
-   return "madly"
-    break
-    case 6:
-    case 12:
-   return "not at all"
-    break;
-}
-
+ let arr = ['I love you', 'a little', 'a lot', 'passionately', 'madly', 'not at all'];
+ for (let i = 0; i <= nbPetals; i++){
+ arr.push(arr[i]);
+ }
+ return arr[nbPetals-1];
 }
