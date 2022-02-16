@@ -1,0 +1,3 @@
+function findDifference(a, b) {
+ return ((a.reduce((acc,rec)=> acc*rec))-(b.reduce((acc,rec)=> acc*rec)))
+}
