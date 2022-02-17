@@ -3,7 +3,7 @@ function countdown(n){
     return [];
   } else {
     let arr=countdown(n-1);
-  cA.unshift(n);
+  arr.unshift(n);
   return arr;
   }
 }
